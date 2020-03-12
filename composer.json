@@ -1,0 +1,35 @@
+{
+    "name": "polgarz/google-groups-manager",
+    "description": "Google Groups manager",
+    "keywords": [
+        "google",
+        "gsuite",
+        "google groups manager",
+        "google groups",
+        "google groups syncronization",
+        "yii2",
+        "members",
+        "email"
+    ],
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/polgarz/google-groups-manager/issues",
+        "source": "https://github.com/polgarz/google-groups-manager"
+    },
+    "authors": [
+        {
+            "name": "Polgar Zoltan",
+            "email": "pzoltan@pzoltan.hu"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": ">=2.0.8",
+        "google/apiclient": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "polgarz\\googlegroups\\": ""
+        }
+    }
+}
